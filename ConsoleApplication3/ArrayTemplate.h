@@ -108,7 +108,6 @@ void removeItemAt(T*& arr, int& size, int index) {
     size--;
 }
 
-// Виправлена сигнатура – компаратор приймає const посилання
 template <typename T>
 void mySort(T* arr, int size, bool (*cmp)(const T&, const T&)) {
     for (int i = 0; i < size - 1; i++)
